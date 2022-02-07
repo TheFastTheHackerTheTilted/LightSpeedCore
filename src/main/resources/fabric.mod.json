@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "lightspeedcore",
+  "version": "${version}",
+
+  "name": "Light Speed Core Mod",
+  "description": "This mod is the core mod for other lightspeed's mods\nEven if there is no mods besides core mod there is still bunch of things to check out!",
+  "authors": [
+    "1HorsePower!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.onehorsepower.lightspeedcore.LightSpeedCore"
+    ]
+  },
+  "mixins": [
+    "lightspeedcore.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
