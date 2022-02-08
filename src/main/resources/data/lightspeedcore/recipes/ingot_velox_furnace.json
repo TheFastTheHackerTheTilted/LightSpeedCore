@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "lightspeedcore:ore_velox"
+  },
+  "result": "lightspeedcore:ingot_velox",
+  "experience": 3,
+  "cookingtime": 800
+}

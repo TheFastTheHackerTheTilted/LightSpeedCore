@@ -1,6 +1,7 @@
 package net.onehorsepower.lightspeedcore;
 
 import net.fabricmc.api.ModInitializer;
+import net.onehorsepower.lightspeedcore.block.ModBlocks;
 import net.onehorsepower.lightspeedcore.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class LightSpeedCore implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info(MOD_ID+" initialized!");
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

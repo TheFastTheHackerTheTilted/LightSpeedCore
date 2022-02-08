@@ -1,4 +1,6 @@
 {
+	"itemGroup.lightspeedcore.lightspeed": "Light Speed",
+
 	"item.lightspeedcore.energetic_ess": "Energetic Essence",
 	"item.lightspeedcore.stable_ess": "Stable Essence",
 	"block.lightspeedcore.ore_caer": "Caer Ore",
@@ -16,6 +18,11 @@
 	"item.lightspeedcore.ingot_granti": "Granti Ingot",
 	"item.lightspeedcore.ingot_velox": "Velox Ingot",
 	"item.lightspeedcore.ingot_ozy": "Ozy Ingot",
+	"item.lightspeedcore.raw_caer": "Caer raw",
+	"item.lightspeedcore.raw_caerla": "Caerla raw",
+	"item.lightspeedcore.raw_granti": "Granti raw",
+	"item.lightspeedcore.raw_velox": "Velox raw",
+	"item.lightspeedcore.raw_ozy": "Ozy raw",
 	"item.lightspeedcore.nugget_caer": "Caer Nugget",
 	"item.lightspeedcore.nugget_caerla": "Caerla Nugget",
 	"item.lightspeedcore.nugget_granti": "Granti Nugget",

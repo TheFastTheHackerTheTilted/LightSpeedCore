@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "lightspeedcore:raw_caerla"
+  },
+  "result": "lightspeedcore:ingot_caerla",
+  "experience": 2,
+  "cookingtime": 400
+}

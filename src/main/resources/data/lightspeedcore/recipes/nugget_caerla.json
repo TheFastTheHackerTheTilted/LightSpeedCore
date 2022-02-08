@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lightspeedcore:ingot_caerla"
+    }
+  ],
+  "result": {
+    "item": "lightspeedcore:nugget_caerla",
+    "count": 9
+  }
+}

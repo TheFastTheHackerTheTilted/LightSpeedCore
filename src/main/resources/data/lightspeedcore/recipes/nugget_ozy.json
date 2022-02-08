@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lightspeedcore:ingot_ozy"
+    }
+  ],
+  "result": {
+    "item": "lightspeedcore:nugget_ozy",
+    "count": 9
+  }
+}

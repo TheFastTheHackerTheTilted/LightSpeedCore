@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lightspeedcore:ingot_velox"
+    }
+  ],
+  "result": {
+    "item": "lightspeedcore:nugget_velox",
+    "count": 9
+  }
+}

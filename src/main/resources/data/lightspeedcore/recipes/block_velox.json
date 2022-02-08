@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lightspeedcore:ingot_velox"
+    }
+  },
+  "result": {
+    "item": "lightspeedcore:block_velox"
+  }
+}

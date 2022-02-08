@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "lightspeedcore:glass_energy_star"
+  },
+  "addition": {
+    "item": "lightspeedcore:glass_energy_star"
+  },
+  "result": {
+    "item": "lightspeedcore:empty_imprisonment"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "lightspeedcore:empty_energy_frame"
+  },
+  "addition": {
+    "item": "minecraft:glass"
+  },
+  "result": {
+    "item": "lightspeedcore:glass_energy_star"
+  }
+}
