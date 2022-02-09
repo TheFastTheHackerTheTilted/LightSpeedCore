@@ -45,6 +45,11 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(70f,10000f).requiresTool().strength(70f)), ModItemGroup.LIGHTSPEED);
 
 
+    /**
+     * no purpose blocks
+     */
+    public static final Block BLOCK_LIGHT = registerBlock("block_light",
+            new Block(FabricBlockSettings.of(Material.AIR).breakInstantly().dropsNothing().luminance(10)),ModItemGroup.LIGHTSPEED);
 
     /**
      * registering blocks
