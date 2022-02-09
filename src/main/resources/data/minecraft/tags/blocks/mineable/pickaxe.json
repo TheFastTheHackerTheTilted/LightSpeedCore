@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "lightspeedcore:ore_granti",
+    "lightspeedcore:block_granti",
+    "lightspeedcore:ore_ozy",
+    "lightspeedcore:block_ozy",
+    "lightspeedcore:ore_caer",
+    "lightspeedcore:block_caer",
+    "lightspeedcore:ore_caerla",
+    "lightspeedcore:block_caerla",
+    "lightspeedcore:ore_velox",
+    "lightspeedcore:block_velox"
+  ]
+}

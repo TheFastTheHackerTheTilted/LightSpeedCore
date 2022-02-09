@@ -32,6 +32,10 @@
 	"item.lightspeedcore.glass_energy_star": "Glass Plated Energy Star",
 	"item.lightspeedcore.empty_imprisonment": "Empty Energy Imprisonment Star",
 	"item.lightspeedcore.charged_imprisonment": "Charged Energy Imprisonment Star",
+
+	"block.lightspeedcore.block_light": "Sun Light Block",
+
+
 	"item.lightspeedcore.pickaxe_01": "§4Pickaxe 1"
 	
 }
