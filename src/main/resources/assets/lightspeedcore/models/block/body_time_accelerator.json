@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "lightspeedcore:block/body_time_accelerator/side",
+		"north": "lightspeedcore:block/body_time_accelerator/side",
+		"south": "lightspeedcore:block/body_time_accelerator/side",
+		"east": "lightspeedcore:block/body_time_accelerator/side",
+		"west": "lightspeedcore:block/body_time_accelerator/side",
+		"up": "lightspeedcore:block/body_time_accelerator/top",
+		"down": "lightspeedcore:block/body_time_accelerator/down"
+	}
+}
