@@ -10,6 +10,8 @@
     "lightspeedcore:ore_caerla",
     "lightspeedcore:block_caerla",
     "lightspeedcore:ore_velox",
-    "lightspeedcore:block_velox"
+    "lightspeedcore:block_velox",
+    "lightspeedcore:body_time_accelerator",
+    "lightspeedcore:one_night_miner"
   ]
 }

@@ -10,6 +10,8 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.onehorsepower.lightspeedcore.LightSpeedCore;
+import net.onehorsepower.lightspeedcore.block.custom.BodyTimeAccelerator;
+import net.onehorsepower.lightspeedcore.block.custom.OneNightMiner;
 import net.onehorsepower.lightspeedcore.item.ModItemGroup;
 
 
@@ -18,7 +20,10 @@ import static net.onehorsepower.lightspeedcore.LightSpeedCore.MOD_ID;
 public class ModBlocks {
 
 
-    //harvest level 3=dia_pick,4=neth_pick
+    /**
+     * no ability blocks
+     * harvest level 3=dia_pick,4=neth_pick
+     */
     public static final Block ORE_GRANTI = registerBlock("ore_granti",
             new Block(FabricBlockSettings.of(Material.METAL).strength(20f,10f).requiresTool().strength(20f)), ModItemGroup.LIGHTSPEED);
     public static final Block BLOCK_GRANTI = registerBlock("block_granti",
@@ -46,10 +51,19 @@ public class ModBlocks {
 
 
     /**
+     * blocks that have abilities
+     */
+
+    public static final Block BODY_TIME_ACCELERATOR = registerBlock("body_time_accelerator",
+            new BodyTimeAccelerator(FabricBlockSettings.of(Material.METAL).strength(30f,250f).requiresTool()), ModItemGroup.LIGHTSPEED);
+    public static final Block ONE_NIGHT_MINER = registerBlock("one_night_miner",
+            new OneNightMiner(FabricBlockSettings.of(Material.METAL).strength(30f,250f).requiresTool()), ModItemGroup.LIGHTSPEED);
+
+    /**
      * no purpose blocks
      */
     public static final Block BLOCK_LIGHT = registerBlock("block_light",
-            new Block(FabricBlockSettings.of(Material.AIR).breakInstantly().dropsNothing().luminance(10)),ModItemGroup.LIGHTSPEED);
+            new Block(FabricBlockSettings.of(Material.AIR).breakInstantly().dropsNothing().luminance(25)),ModItemGroup.LIGHTSPEED);
 
     /**
      * registering blocks

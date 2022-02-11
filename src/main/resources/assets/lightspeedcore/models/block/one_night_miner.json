@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "lightspeedcore:block/one_night_miner/side",
+		"north": "lightspeedcore:block/one_night_miner/side",
+		"south": "lightspeedcore:block/one_night_miner/side",
+		"east": "lightspeedcore:block/one_night_miner/side",
+		"west": "lightspeedcore:block/one_night_miner/side",
+		"up": "lightspeedcore:block/one_night_miner/top",
+		"down": "lightspeedcore:block/one_night_miner/down"
+	}
+}
